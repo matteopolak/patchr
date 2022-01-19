@@ -1,0 +1,29 @@
+{
+  "name": "patchr",
+  "version": "1.0.0",
+  "description": "An API wrapper for Patchr.io",
+  "main": "src/index.ts",
+	"type": "module",
+  "scripts": {
+    "start": "npx tscc && node ./target/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteopolak/patchr.git"
+  },
+  "keywords": [
+    "patchr",
+    "api",
+    "wrapper",
+    "exploit"
+  ],
+  "author": "Matteo Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matteopolak/patchr/issues"
+  },
+  "homepage": "https://github.com/matteopolak/patchr#readme",
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
+}
